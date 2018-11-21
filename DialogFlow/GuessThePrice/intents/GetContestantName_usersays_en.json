@@ -1,0 +1,52 @@
+[
+  {
+    "id": "d0483a17-c267-4e1c-a568-3c27f4953d34",
+    "data": [
+      {
+        "text": "I am ",
+        "userDefined": false
+      },
+      {
+        "text": "Juan",
+        "alias": "playername",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542353824
+  },
+  {
+    "id": "35b921c6-4411-4bb9-ba96-fba8935367cd",
+    "data": [
+      {
+        "text": "My name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Juan",
+        "alias": "playername",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542353824
+  },
+  {
+    "id": "12932bb5-2deb-4aa3-ae9f-65feae4342a4",
+    "data": [
+      {
+        "text": "Juan",
+        "alias": "playername",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1542353824
+  }
+]
