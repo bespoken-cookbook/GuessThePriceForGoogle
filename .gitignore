@@ -1,0 +1,21 @@
+node_modules
+.idea/
+.vscode/
+*.log
+**/*.iml
+target/
+coverage/
+index.js.map
+.env
+*.tgz
+**/*.d.ts
+
+codeship.aes
+docker/aws.env
+
+.nyc_output/
+
+**/.DS_Store
+
+# generated docs
+site/

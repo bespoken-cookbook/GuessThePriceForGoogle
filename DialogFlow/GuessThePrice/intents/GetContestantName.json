@@ -1,0 +1,45 @@
+{
+  "id": "ac2547d6-fe4a-4786-b363-fb518af1adca",
+  "name": "GetContestantName",
+  "auto": true,
+  "contexts": [
+    "_SETUP_USERS"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "_SETUP_USERS",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "c6115eaf-ba83-455a-8d0a-26b850a478f8",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "playername",
+          "value": "$playername",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542783896,
+  "fallbackIntent": false,
+  "events": []
+}

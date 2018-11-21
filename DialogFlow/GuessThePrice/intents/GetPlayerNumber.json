@@ -1,0 +1,45 @@
+{
+  "id": "66a5715d-028a-42e0-861d-e37d0aa10b40",
+  "name": "GetPlayerNumber",
+  "auto": true,
+  "contexts": [
+    "_START_MODE"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "_START_MODE",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d0972bf9-717c-4685-84fb-503e0bf724c5",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1542783989,
+  "fallbackIntent": false,
+  "events": []
+}
