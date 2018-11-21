@@ -1,0 +1,40 @@
+{
+  "id": "7f0e8f7d-a5ce-4fc4-9d8d-735567ea469e",
+  "name": "GetANumber",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getANumber",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f9723fc9-93b2-40cc-8e3e-6fe8467e0378",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "lastUpdate": 1542785471,
+  "fallbackIntent": false,
+  "events": []
+}
