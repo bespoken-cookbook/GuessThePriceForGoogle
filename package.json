@@ -15,6 +15,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "bst test test"
+    "test": "bst test"
   }
 }
