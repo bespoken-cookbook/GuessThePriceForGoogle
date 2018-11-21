@@ -1,7 +1,0 @@
-{
-    "dialogFlowDirectory": "./DialogFlow/GuessThePrice",
-    "expressModule": "index.js",
-    "expressPort": 3000,
-    "platform": "google",
-    "trace": false
-}
