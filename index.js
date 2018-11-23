@@ -17,7 +17,7 @@ const AppContexts = {
   SETUP_USERS: '_setup_users', // User is trying to guess the number.
   GAME_ROUND: '_game_round',
   TELL_SCORE: '_tell_score',
-}
+};
 
 
 // Register handlers for Dialogflow intents
@@ -43,9 +43,8 @@ const askFirstPlayerName = (conv, playerQuantity) => {
 };
 
 const evaluateContext = (conv, contextToSearch) => {
-    const context = conv.contexts.get(contextToSearch);
-    return context;
-}
+   return conv.contexts.get(contextToSearch);
+};
 
 const reprompt = (conv) => {
   // If we reprompt we have to keep alive the current context again
@@ -62,7 +61,7 @@ const reprompt = (conv) => {
     // Should never enter here, including it to have a default if states fail
     conv.close('We are sorry, please try to start the game again');
   }
-}
+};
 
 app.intent('GetOnePlayer', conv => {
   if (evaluateContext(conv, AppContexts.START_MODE)) {
