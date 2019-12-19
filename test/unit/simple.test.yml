@@ -1,4 +1,5 @@
-# A simple example of skill test suite for google assistant
+# A simple example of Google Actions test suite
+
 --- # Configuration YAML document
 configuration:
   locale: en-US
@@ -8,10 +9,10 @@ configuration:
 # This test shows how to access any parameter for a unit test directly
 - LaunchRequest:
   - payload.google.richResponse.items[0].simpleResponse.textToSpeech == Welcome to guess the price
-# For the simple Response thought just indicating the meessage right away works Since we have an internal alias
+# For the simple Response thought just indicating the message right away works Since we have an internal alias
 - GetOnePlayer: tell us your name
 - GetContestantName playername=Juan: Juan * Guess the price
-- 100 dollars: Your score for that answer is * Guess the price
+- 100 dollars: Your score for the answer is * Guess the price
 - GetANumber number=100: Your score for that answer is * Guess the price
 - GetANumber number=100: Game ended
 
@@ -21,7 +22,7 @@ configuration:
 # This test shows how to access any parameter for a unit test directly
 - LaunchRequest:
   - payload.google.richResponse.items[0].simpleResponse.textToSpeech == Welcome to guess the price
-# For the simple Response thought just indicating the meessage right away works Since we have an internal alias
+# For the simple Response thought just indicating the message right away works Since we have an internal alias
 - GetANumber number=2: contestant one please tell us, what is your name
 - GetContestantName playername=Juan: Contestant 2
 - GetContestantName playername=Pedro: Juan * Guess the price
