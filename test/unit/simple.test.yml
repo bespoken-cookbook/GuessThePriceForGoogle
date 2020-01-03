@@ -12,7 +12,7 @@ configuration:
 # For the simple Response thought just indicating the message right away works Since we have an internal alias
 - GetOnePlayer: tell us your name
 - GetContestantName playername=Juan: Juan * Guess the price
-- 100 dollars: Your score for the answer is * Guess the price
+- 100 dollars: Your score for that answer is * Guess the price
 - GetANumber number=100: Your score for that answer is * Guess the price
 - GetANumber number=100: Game ended
 
