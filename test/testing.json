@@ -3,5 +3,6 @@
     "expressModule": "index.js",
     "expressPort": 3000,
     "platform": "google",
+    "silent": true,
     "trace": false
 }

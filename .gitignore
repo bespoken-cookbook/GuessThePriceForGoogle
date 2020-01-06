@@ -10,3 +10,5 @@ index.js.map
 .env
 *.tgz
 **/*.d.ts
+test_output
+bst-debug.log
