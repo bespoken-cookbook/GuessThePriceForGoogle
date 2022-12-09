@@ -7,7 +7,7 @@
     "actions-on-google": "^2.5.0",
     "bespoken-tools": "2.0.5",
     "dotenv": "^4.0.0",
-    "express": "^4.16.4"
+    "express": "^4.17.3"
   },
   "repository": {
     "type": "git",
