@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "actions-on-google": "^2.5.0",
-    "bespoken-tools": "2.0.5",
+    "bespoken-tools": "2.6.5",
     "dotenv": "^4.0.0",
     "express": "^4.16.4"
   },
